@@ -1,0 +1,102 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #F0F1E3;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+
+  border-radius: 0 5% 5% 0;
+  border-bottom-right-radius: 5%;
+}
+
+.menu.open {
+  transform: translateX(0);
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-items h1 {
+  width: 70%; 
+  margin-bottom: 15px; 
+}
+
+.menu-items a {
+  color: #050605;
+  text-decoration: none;
+  font-size: 1.5em; /* Unidade relativa */
+  margin-bottom: 15px;
+}
+
+.menu-items a:hover {
+  background-color: #D1D9BA;
+  border-radius: 25px;
+  margin-left: -5px; /* Ajuste para a esquerda */
+  margin-right: 5px; /* Ajuste para a direita */
+  padding: 10px 10px; /* Ajuste para torná-lo um pouco maior em altura */
+}
+
+.close-icon {
+  color: #100e0e;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 10%; /* Porcentagem da largura da tela padrão */
+  height: auto; /* Altura automática de acordo com o conteúdo */
+}
+
+/* Adicione uma media query para telas menores */
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 65%; /* 50% da largura da tela para telas menores */
+  }
+
+  .menu-items h1 {
+    width: 50%; /* Largura de 100% do container .menu-items para telas menores */
+  }
+
+  .close-icon {
+    top: 2%;
+    right: 2%;
+    width: 20%; /* Porcentagem maior para telas menores */
+  }
+}
+
+.hamburger-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: clamp(20px, 3%, 30px); /* Reduz a largura do menu */
+  height: clamp(12px, 2%, 16px); /* Reduz a altura do menu */
+  margin-right: auto;
+}
+
+.bar {
+  width: 100%;
+  height: 2px; /* Reduz ainda mais a altura das barras para torná-las mais finas */
+  background-color: #fff;
+  margin: 3px 0; /* Reduz o espaçamento vertical entre as barras */
+  transition: transform 0.2s ease; 
+}
+
+.bar.open:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg);
+}
