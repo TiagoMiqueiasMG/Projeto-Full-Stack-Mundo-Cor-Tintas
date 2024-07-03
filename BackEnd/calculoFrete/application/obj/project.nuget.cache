@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wKYn1TY0+2oowVrgfbxvo10AF/UPJD8HULJjRJ2EYJb2/uAp1l4wTodBFNTxiAcH4v7HMT8HZOZTAykWy3mJsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tiago\\OneDrive\\Documentos\\API-Entregas\\codigo-fonte\\BackEnd\\calculoFrete\\application\\application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tiago\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+C:\repositorios\calculoFrete\domain\bin\Debug\net7.0\domain.deps.json
+C:\repositorios\calculoFrete\domain\bin\Debug\net7.0\domain.dll
+C:\repositorios\calculoFrete\domain\bin\Debug\net7.0\domain.pdb
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\domain.AssemblyInfoInputs.cache
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\domain.AssemblyInfo.cs
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\domain.csproj.CoreCompileInputs.cache
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\domain.dll
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\refint\domain.dll
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\domain.pdb
+C:\repositorios\calculoFrete\domain\obj\Debug\net7.0\ref\domain.dll
